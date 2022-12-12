@@ -15,7 +15,7 @@ function run() {
   )
     .then((response) => response.json())
     .then((response) => {
-    console.log(response)
+
 		for(i=0; i<response.data.length; i++){
 			output.innerHTML+= `${i}. ${response.data[i].employer_name}, Official Website: ${response.data[i].employer_website}, Apply Link For the Job: ${response.data[i].job_apply_link}, Job Description: ${response.data[i].job_description}`;
 			output.innerHTML+= '<br>'
