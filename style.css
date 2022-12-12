@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: url('nature.jfif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container2{
+
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    min-height: 250px;
+    border: 1px solid white;
+}
+input{
+    box-shadow: none !important;
+}
+button{
+    box-shadow: none !important;
+    width: 100% !important;
+}
+.output{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
